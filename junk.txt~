@@ -1,0 +1,11 @@
+program junk;
+	var a:integer;
+begin
+! Testing 1223weqweq
+A:=123
+if a > 10 then
+write('Big') !hello there
+else
+write('Little!!')
+if (a='12' and b='45') !! 'asddd'
+end.

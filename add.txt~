@@ -1,0 +1,21 @@
+program Add;
+  var n: integer;
+  procedure addN(n : integer);
+  var count, sum : integer; !local variable
+  begin
+  count:=1;
+  sum:=0;
+  while count<=n do
+    begin
+    sum:=sum+count;
+    count :=count+1;
+    end;
+    write('Sum is ');
+    write(sum);
+    end;
+    begin ! main
+      write('Enter n: ');
+      read(n);
+      call addN(n);
+      writeln('')
+    end.

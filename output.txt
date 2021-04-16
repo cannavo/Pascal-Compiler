@@ -1,0 +1,22 @@
+1 program Add;
+2   var n: integer;
+3   procedure addN(n : integer);
+4   var count, sum : integer; !local variable
+5   begin
+6   count:=1;
+7   sum:=0;
+8   while count<=n do
+9     begin
+10     sum:=sum+count;
+11     count :=count+1;
+12     end;
+13     write('Sum is ');
+14     write(sum);
+15     end;
+16     begin ! main
+17       write('Enter n: );
+18       read(n);
+19       call addN(n);
+20       writeln('')
+21     end.
+String not terminated at line 17.
